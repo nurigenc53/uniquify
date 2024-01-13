@@ -26,7 +26,7 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1068141372").split())
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BACh59sAlu2SC62_HfIvtW1sB7pKfXjR-pGHlYrvUpR5jsSsqlLGyt5pHsD_nSbsAq8G8Hc-0Y3EgM4nogbHn4F7Y8rHq64sa8BSrPcbc0ZLTjpRSaoVFnGT_wdBLWAMGqwZsXYbGT_PwAP4B1viay0vMU-NlbnB-brZoLc_4VtlLHeC6_2B7uF8hJ3RfjwTAHZxWYFYZ3qFi1X72dAF5nLVwYRkG-6ofDIDVVq90P9BxfFFoIZHH-Hw3ZEocFtbouzkqxPyikyMZ2rbH1q1pujdlrn76W25Ph8iHvkk3eBjdTdJ3eOqQrq4t8peufQVuVQ9E5ft9BtcVLl9mJdXK2ktZg9iHQAAAAA_qos8AA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BACh59sANwu0SB3sCCuDNWr60n3hE0THVkAo0T-3ClX8pPlsgNQazllgy1ZeAWicPMf--5kwcBPAJWuTZdCRUiPOOjJPupEzU8cGKifV6DfhBDOAB3h20kN5HENIR5Fghltr2LHK-bAZsUDJlbxdj8EikLQjlWW_xO1vyhcKdf5IG9ZeySB978heLy5gdyVYIvcEwmWMhbcRtNffVAPGIscd59X9pTYbOovbHh7tCxCCMceiR9DebxgR36fJFCa2YPjaU1HtB577nlQ-OFhzK8g3o7o51MPYD5HAqahIshXMQg0vgbvJ6vWnzQgTYGjOMpJHoDgetHjVwmwjI84S7Q0OM4yY1wAAAAFKaYsHAQ")
 
 
 def LOGGER(name: str) -> logging.Logger:
